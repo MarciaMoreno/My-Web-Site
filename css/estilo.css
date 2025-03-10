@@ -1,41 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-.birthstone-bounce-regular {
-    font-family: "Birthstone Bounce", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 42px;
-}
-    /*** <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 300 to 900***/
-.montserrat{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;}
-.black-ops-one-regular {
-    font-family: "Black Ops One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-tualização CSS / DIVGRID *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-.flex{ flex-wrap: wrap; display: flex; max-width: 100%; margin: 0 auto;}
-.flex > div{ flex: 1 1 450px;}
-.col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	
-.col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
-
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / BODY *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-    a{ text-decoration: none;}
-    ul li { list-style: none;}
-    BODY{ background-color: #E0E8E6;}
-    header{ margin: 0 auto;}
-    figcaption { text-align: justify; font-size: 18px; text-indent: 32px; font-family: "Montserrat", sans-serif;}
-    hr{ border: dashed 18px #5A339C; opacity: .6;}
-    article p{ text-indent: 32px ; font-family: "Montserrat", sans-serif; font-size: 18px; text-align: justify; padding: 10px 12px 20px 2px;}
+Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 10/03/2025*********/
+    .birthstone-bounce-regular {
+        font-family: "Birthstone Bounce", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 42px;
+    }
+        /*** <uniquifier>: Use a unique and descriptive class name
+        // <weight>: Use a value from 300 to 900***/
+    .montserrat{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;}
+    .black-ops-one-regular {
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /*** Atualização CSS / BODY ******/
+    a{ text-decoration: none;}   ul li { list-style: none;}
+    body{ flex-wrap: wrap; margin: 0 auto; padding: 0; min-width: 360px; }
+    .flex{ flex-wrap: wrap; display: flex; justify-content: center;  max-width: 100%; margin: 0 auto;}
+    
 
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
