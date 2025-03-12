@@ -1,181 +1,269 @@
-@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 10/03/2025*********/
-    .birthstone-bounce-regular {
-        font-family: "Birthstone Bounce", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 42px;
-    }
-        /*** <uniquifier>: Use a unique and descriptive class name
-        // <weight>: Use a value from 300 to 900***/
-    .montserrat{
-        font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;}
-    .black-ops-one-regular {
-        font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
-    }
-    /*** Atualização CSS / BODY ******/
-    a{ text-decoration: none;}   ul li { list-style: none;}
-    body{ flex-wrap: wrap; margin: 0 auto; padding: 0; min-width: 360px; }
-    .flex{ flex-wrap: wrap; display: flex; justify-content: center;  max-width: 100%; margin: 0 auto;}
-    
+    /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
+    Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 10/03/2025*********/
+        .birthstone-bounce-regular {
+            font-family: "Birthstone Bounce", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 42px;
+        }
+            /*** <uniquifier>: Use a unique and descriptive class name
+            // <weight>: Use a value from 300 to 900***/
+        .montserrat{
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;}
+        .black-ops-one-regular {
+            font-family: "Black Ops One", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+        /*** Estilização CSS / BODY ******/
+        a{ text-decoration: none;}  a:link{ color: #5A339C; font-weight: bold;} a:active{ color: #EEE3B0;}  ul li { list-style: none;}
+        body{ flex-wrap: wrap; margin: 0 auto; padding: 0; min-width: 360px; background-color: #E0E8E6; }
+        p{  font-family: "Montserrat", sans-serif;  white-space: break-space;}
 
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-#btn{
-    background-color: #5A339C;
-    color: #EEE3B0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 28px;
-    width: 210px;
-    padding: 20px 5px;
-    border-radius: 124px 202px 202px;
-    margin-top: 3px;
-    border: dashed 8px #E0E8E6;
-    box-shadow: inset 2px 8px 24px #5A339C, 9px 29px 19px #3B2F45;
-    align-items: center;
-}
-#btn:hover{
-    background-color: #EEE3B0;
-    color: #5A339C; 
-    border: dashed 8px #EEE3B0;   
-}
-#foto{
-    width: 342px;
-    height: 352px;
-    border-radius: 124px 202px 202px;
-    box-shadow: inset 2px 28px 24px #5A339C, 9px 29px 19px #3B2F45;
-}    
-#img-social{ 
-        width: 50px;
-        height: 50px;
-        border-radius: 32px;
-        border: dotted 8px #5A339C;
-        box-shadow: inset 2px 4px 10px #3B2F45, 9px 29px 19px #3B2F45;
-    }
-#img-social:hover{ background-color: #EEE3B0; box-shadow: inset 2px 2px 4px #5A339C, 9px 9px 19px #fff; border: dashed 8px #EEE3B0;}
-.nome{ font-size: 72px; color: #5A339C; word-spacing: 12px;}
-.menu{ margin: 5% 0% 5% 0%;}
-.menu > ul{ margin-left: 10%; align-items:center; justify-content: space-between;}
-.menu ul li{ display: inline-block;}
-.retrato{ 
-   background-image: url("../Objeto/teste-base1.png");
-   background-repeat: no-repeat;
-   background-position: 100%;
-   text-align: center;
-   border-image: 3px 9px 39px #5A339C, 0px 9px 119px #3B2F45;
-   margin: 0% 0% 6% 0%;
-   
-}
-.retrato p{ 
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    background-color: #301D42;
-    color: #EEE3B0;
-    padding: 15px;
-    border-radius: 32px;
-}
-.retrato a { color: #EEE3B0;}
-.retrato a:hover{ color: #fff;}
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-#baner-img{ width: 250px; height: 200px; border-radius: 32px; border: dotted 8px #5A339C;}
-#book{ width: 300px; height: 450px;}
-#destaque:hover{ text-decoration: underline; }
-#icon{ width: 42px; height: 42px; border-radius: 12px;}
-#img-site { width: 80%; margin-left: 10%; border: dashed 10px #E0E8E6}
-#img-site:hover { box-shadow: inset 2px 4px 10px #3B2F45, 9px 29px 49px #3B2F45;}
-#img-site figcaption{  font-family: "Montserrat", sans-serif; font-size: 18px;}
-a #img-medibang{ border: dotted 14px #5A339C;}
-a #img-medibang:hover { box-shadow: inset 2px 4px 10px #3B2F45, 9px 29px 49px #3B2F45; }
-#sidebar{ width: 300px; height: 410px; border: dotted 6px #3B2F45; margin-top: 6%;}
-div > #sidebar{ display: block; margin-left: auto; margin-right: auto;}
-#tito-profile{   width: 100%; }
-.artigo { margin-left: -4%; float: left;}
-.book{ text-align: center; align-items: center;}
-.book figcaption{ margin-left: 11%;}
-.book figcaption:hover{ text-decoration: underline;}
-.span-tito{ 
-    font-family: "Black Ops One", system-ui;
-    font-size: 48px;
-    color: #5A339C;
-    padding: 20px;
-    word-spacing: 8px;
-    border-radius: 12px;
-    margin-left: 4%;
-    text-align: center;
-    text-shadow: 5px 5px 0px #EEE3B0, 7px 7px 0px #3B2F45;
-    opacity: .6;
-}
-.tito-artigo{
-    font-family: "Black Ops One", system-ui;
-    color: #301D42;
-    font-size: 32px;
-}
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / <footer> *** Nazaré do Piauí - Brasil - 04/06/2024******
+    /***Estilização CSS / <header> *********/
+        .menu{ display: flex; justify-content: space-between; align-items: center; text-align: center; margin: 3% 5%; }
+        .menu ul li{ display: inline-block; justify-items: center; text-align: center;}
+        .btn{
+            background-color: #5A339C; 
+            box-shadow: inset 2px 4px 8px #5A339C, 3px 19px 19px #3B2F45; 
+            font-family: "Montserrat", sans-serif; font-size: 28px; color: #EEE3B0;   
 
-    Não houve declarações
+            width: 210px;   padding: 20px 5px; margin-top: 3px;
+            border-radius: 124px 202px 202px; border: dotted 8px #E0E8E6; 
 
-**************************************************************************************************************************************************************/
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / multimidia.html *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+            align-items: center; margin: 2%;
+        }
+        .btn:hover{
+            background-color: #EEE3B0;   color: #5A339C;  border: dashed 8px #EEE3B0;   
+        }   
+        .img-social{ 
+            width: 50px;  height: 50px; margin: 2%;
+            border-radius: 32px;  border: dotted 8px #5A339C;
+            box-shadow: inset 2px 4px 8px #5A339C, 3px 9px 19px #3B2F45; 
+        }
+        .img-social:hover{ 
+            background-color: #EEE3B0; 
+            box-shadow: inset 2px 2px 4px #5A339C, 3px 3px 3px #fff; 
+            border: dashed 8px #EEE3B0;
+        }
 
-#gif{
-    margin-top: -4%;
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: dotted 24px #5A339C;
-    border-radius: 32%;
-}
-.video-player{   margin-left: 4%;  }
-**************************************************************************************************************************************************************/
-/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / sobre-mim.html *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+    /***Estilização CSS / seção do retrato  *********/
 
-table{ 
-    width: 90%;
-    padding: 20px;
-    border: dashed 8px #B6BDBB;
-}
-tr, td{ border: solid 1px #6C706F;}
-tr:nth-child(even) {background-color: #B6BDBB;}
-#emoji{
-    width: 120px;
-    margin-top: -4% ;
-}
-#logo-GiHub{ width: 200px; margin-left: 10%;}
-.question {
-    font-family: "Black Ops One", system-ui;
-    padding: 15px;
-    text-align: center;
-    background-color: #301D42;
-    color: #EEE3B0;
-    
-  }
-  .answer{
-    padding-left: 20px;
-    font-family: "Montserrat", sans-serif;
-  }
-  .btn-docs ul li{ display: inline-block;}
-  .margem{ margin-top: 10%;}
-  .links-relevantes a { 
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
-    color: #3B2F45;
-    padding-left: 50px;
-  }
-  .tito-figurado{
-    font-family: "Black Ops One", system-ui;
-    font-size: 32px;
-  }
+        .nome{ font-size: 52px; color: #5A339C; word-spacing: 12px;}
+        .foto img{
+            width: 342px;  height: 352px; border-radius: 124px 202px 202px;
+            box-shadow: inset 2px 28px 24px #5A339C, 9px 29px 19px #3B2F45;
+        } 
+        .estrela{ 
+            background-image: url("../Objeto/teste-base1.png");
+            background-repeat: no-repeat;
+            background-size: 200%;
+            animation: estrelado 12s ease infinite alternate;       
+        }
+        @keyframes estrelado {
+            0%{
+                background-position: 0% 25%;
+            }
+            25%{
+                background-position: 25% 50%;
+            }
+            50%{
+                background-position: 50% 75%;
+            }
+            75%{
+                background-position: 75% 100%;
+            }
+            100%{
+                background-position: 0% 25%;
+             }
+        }
+        .retrato{ text-align: center;} 
+        .retrato a { color: #EEE3B0;} .retrato a:hover{ color: #fff;}
+        .retrato p{ 
+            font-family: "Montserrat", sans-serif; font-size: 18px; padding: 15px;
+            background-color: #301D42; color: #EEE3B0;           
+        }
+        
+
+    /***Estilização CSS / SECTION  *********/
+        #book { width: 300px; height: 400px;}
+        #book2{ width: 300px; height: 400px; border: dotted 10px #5A339C; box-shadow: 2px 18px 56px #3B2F45;}
+        #book2:hover{ border: groove 10px #301D42;}
+
+        #img-site{
+            width: 100%; object-fit: cover; object-position: center;
+        }
+
+        .status_img{ box-sizing: content-box; min-width: 360px; max-width: 100%;}
+        .status_img img{ object-fit: cover; object-position: center; width: 100%; margin: auto; }
+        .status{ display: block; justify-items: center; text-align: center;  flex-wrap: wrap; margin: 5%; min-width: 300px;}
+        .status span{ font-size: 3.8rem; color: #5A339C; text-shadow: 5px 5px 0px #EEE3B0, 7px 7px 0px #3B2F45; opacity: .6; }
+        .span-tito{ text-align: center;  font-size: 3rem; padding: 12px;}
+        .flex{ 
+            display: flex; justify-content: center; justify-items: center; 
+            flex-wrap: wrap; min-width: 340px; text-align: center;
+        }
+        .box{ width: 330px;}
+        .box figcaption{
+            font-size: smaller; padding: 10px; text-indent: 52px; text-align: justify;
+        }
+        
+     /***Estilização CSS / SECTION - Os artigos dos sites parceiros *********/
+        main{
+            justify-items: center;  flex-wrap: wrap; min-width: 350px; margin: auto; 
+        }
+        .parceiro h3{
+            text-align: center; font-size: 3rem; padding-top: 100px; padding-bottom: 5px;
+            text-shadow: 5px 5px 0px #EEE3B0, 7px 7px 0px #301D42; opacity: .6; color: #5A339C;
+        }
+        .parceiro figcaption{ text-align: justify; text-indent: 52px; font-family: "Montserrat", sans-serif; font-size: 1.1rem;}
+        
+    /***Estilização CSS - MAIN SECTIONS  *********/
+        #sidebar{ object-fit: cover; object-position: center; width: 200px; height: 300px; 
+            margin-left: 20%; border-radius: 10%; margin-top: 50%;
+        }
+        #baner-img{
+            width: 200px; height: 200px; object-fit: cover; object-position: center; 
+            margin-left: 35%; border-radius: 124px 202px 202px;
+            box-shadow: inset 2px 28px 24px #5A339C, 9px 29px 19px #3B2F45;
+        }
+        .section_main{
+            display: flex;  min-width: 350px;   flex-wrap: wrap; justify-content: center;
+        }        
+        .artigo_main{ display: block; }
+        .artigo_main, .sidebar{
+            max-width: 700px; min-width: 350px;  align-items: center;
+        }
+        .artigo_main h2{
+            text-shadow: 5px 5px 0px #EEE3B0, 6px 6px 0px #3B2F45; opacity: .6; 
+            font-family: "Black Ops One", system-ui; padding: 15px; color: #5A339C;
+            font-size: 2rem; text-align: center;
+        }
+        .artigo_main p{
+            padding: 3%; text-indent: 52px; text-align: justify; 
+        }
+        .artigo_main a:hover{
+            text-decoration: underline; color: #5A339C;
+        }        
+       .sidebar{ 
+            background: linear-gradient(45deg, #EEE3B0 25%, #a997c8 50%, #3B2F45 75%, #EEE3B0 100%);
+            background-size: 400%; height: 50vh; border-radius: 30px; margin-top: 5%; margin-bottom: 20%;
+            animation: sidebar 6s ease infinite alternate;       
+        }
+        @keyframes sidebar {
+            0%{
+                background-position: 0% 25%;
+            }
+            25%{
+                background-position: 25% 50%;
+            }
+            50%{
+                background-position: 50% 75%;
+            }
+            75%{
+                background-position: 75% 100%;
+            }
+            100%{
+                background-position: 0% 25%;
+            }
+        }
+        hr{
+            height: 3px; padding: 10px; opacity: .6; width: 100%;
+            border-top: dotted 12px #EEE3B0; background-color: #301D42;
+            border-bottom: dotted 12px #EEE3B0;
+        }
+        .retorno_menu{
+            display: flex; justify-content: center; text-align: center;
+            flex-wrap: wrap;
+        }
+        .btn_2{
+            background-color: #5A339C; 
+            box-shadow: inset 2px 4px 8px #5A339C, 3px 19px 19px #3B2F45; 
+            font-family: "Montserrat", sans-serif; font-size: 28px; color: #EEE3B0;   
+
+            width: 210px;   padding: 20px 5px; margin-top: 3px;
+            border-radius: 124px 202px 202px; border: dotted 8px #E0E8E6; 
+
+            align-items: center; margin: 2%;
+        }
+
+    /***Estilização CSS - footer  *********/
+        .footer{
+            display: flex; justify-items: center; text-align: center; flex-direction: column;
+            margin-top: 200px;
+        }
+
+
+    /***multimidia.html - DIRETORIO: Pink_Anime-dark*******************************************
+    Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 11/03/2025*********/
+
+        #gif{
+            min-width: 340px; max-width: 600px; border-radius: 50px;
+        }
+        .video-player{ 
+            display: flex; justify-content: center; align-items: center; text-align: center;
+            flex-wrap: wrap; min-width: 350px;
+        }
+        .video-player div{ margin: 10px; border: #5A339C 15px dotted; margin-top: 15%;}
+        .video-player div:hover{ 
+            border: #3B2F45 15px groove;
+        }
+        .canal{
+            display: block; justify-items: center;
+            border: transparent 2px solid;
+        }
+        .canal img:hover{
+            box-shadow:  2px 28px 24px #5A339C, 9px 29px 19px #3B2F45;
+            border: #5A339C 2px solid;
+        }
+
+    /***multimidia.html - DIRETORIO: Pink_Anime-dark*******************************************
+    Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 11/03/2025*********/
+        #img_answer{ width: 100px; height: 100px; margin: 15px; }      
+
+        .container{ 
+            display: flex; justify-items:center; align-items: center; max-width: 900px; 
+            flex-wrap: wrap; min-width: 360px; 
+            
+        }
+        .linha{ 
+            display: flex; justify-content: space-between; width: 100%; 
+            margin: 2px; min-width: 360px;
+            word-break: keep-all; word-wrap: break-word; white-space: break-space;
+        }
+        .container .linha{ min-width: 360px; }
+        .answer, .question{ padding: 5px; flex-wrap: wrap;}
+             
+        .question {
+            width: 30%; 
+            font-family: "Black Ops One", system-ui;            
+            text-align: center; flex-wrap: wrap;
+            background-color: #301D42;
+            color: #EEE3B0;            
+          }
+          .answer{
+            width: 70%;            
+            font-family: "Montserrat", sans-serif;
+            min-width: 200px; flex-wrap: wrap;
+            border: 2px dashed #301d4267;
+          }
+
+          .tito2{
+            display: flex; justify-content: center; justify-items: center; text-align: center;
+            flex-wrap: wrap; margin-top: 110px; background-color: #3B2F45; color: #EEE3B0;
+            width: 100%;
+          }
+          .tito2 img{
+            width: 100px; 
+          }
+          .tito2 span{
+            padding: 30px;  font-size: 2rem;
+          }
+
