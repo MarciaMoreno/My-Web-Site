@@ -10,109 +10,74 @@
 		<title>Desenvolvedor Web - MarciaSantos</title>
 		<!----//Links RELACIONAIS//----->
 		<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.marciapatriciam.w3spaces.com/" />
+		<link rel="stylesheet" href="css/estilo-mobile.css" type="text/css" media="screen, projection" />
 		<link REL="stylesheet" type="text/css" href="css/estilo.css" />
 	</head>
 	<body>
 		<header>
-			<div class="flex menu">				
-				<ul>
-					<li><a href="index.html"><input id="btn" type="button" name="OneButton" value="Home" /></a></li>
-					<li><a href="multimidia.html"><input id="btn" type="button" name="OneButton" value="Multimidia" /></a></li>
-					<li><a href="sobre-mim.html"><input id="btn" type="button" name="OneButton" value="Sobre mim" /></a></li>
+			<nav class="menu">				
+				<ul class="botao">
+					<li><a href="index.html"><input class="btn" type="button" name="OneButton" value="Home" /></a></li>
+					<li><a href="multimidia.html"><input class="btn" type="button" name="OneButton" value="Multimidia" /></a></li>
+					<li><a href="sobre-mim.html"><input class="btn" type="button" name="OneButton" value="Sobre mim" /></a></li>
 				</ul>				
-				<ul>
-					<li><a href="https://www.facebook.com/profile.php?id=61559592734029"><img id="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczNXKvCT7S2Xe3HJCcxS0ANoHB-i29y6tolCMtwI2lR9bJKSWKbg_X0dqmtmgONSDN3ap0jLwXE7CTviiWE9WPZLJ8mj-iFH9keMC9TzwABOuUl1sz_Y2HNBWQiTv8mNKpgOBCV9jcV7kNUauhGoCBSr=w500-h500-s-no-gm?authuser=0" alt="facebook" /></a></li>
-					<li><a href="http://www.linkedin.com/in/marcia-patricia-moreno-68b4b230a"><img id="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczMOv6qHFQUg9PlneP9dmDOsBpKuoHSOQzkw_I0cL5fcW8FZ5Uq5-cs9Sxv_ogI4eJ4S-rjHiP3Mj9-bvuzUfVIFUfY_i2nY4AfIf5WPgNNWfOB3xYfvMEITYCefOLU-RoHVddxpjurES9duhUkUHNOV=w500-h500-s-no-gm?authuser=0" alt="linkedin" /></a></li>
-					<li><a href="https://www.youtube.com/channel/UCIl3wm3BjyE4AzxmL5hGm0Q"><img id="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczOA0Pu2awGwpb5m9NRAhllvRneTg8lB05BMFaZESf0RiZ17R_g8sgMwl8n6VR_8LkKLP3fMfcWZb7ValX-2KUDYhBncXm74FDOV98Y0tJB22B-9LysSZoGZriXpKnHxSf9q23DoHmpwecAPA_3KBQaa=w500-h500-s-no-gm?authuser=0" alt="YouTube" /></a></li>
-					<li><a href="Objeto/Imagem_20240525_1326-Whatsapp.png"><img id="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczOHSbua0lDhwN-SdpldrE6uStjzD2ItX5n0ky9LE4GevvjnXtyqGW2ExqyEJUTXioA_dzsrxwZeVES78V3Gf2n27l57p4USXe99Ordo65Tw_qoXP0rJisQqPNI0lGkNX4TSeVv1RWXZPm3GGGiJjCiY=w500-h500-s-no-gm?authuser=0"  alt="Whatsapp"></a></li>
+				<ul class="social">
+					<li><a href="https://www.facebook.com/profile.php?id=61559592734029"><img class="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczNXKvCT7S2Xe3HJCcxS0ANoHB-i29y6tolCMtwI2lR9bJKSWKbg_X0dqmtmgONSDN3ap0jLwXE7CTviiWE9WPZLJ8mj-iFH9keMC9TzwABOuUl1sz_Y2HNBWQiTv8mNKpgOBCV9jcV7kNUauhGoCBSr=w500-h500-s-no-gm?authuser=0" alt="facebook" /></a></li>
+					<li><a href="http://www.linkedin.com/in/marcia-patricia-moreno-68b4b230a"><img class="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczMOv6qHFQUg9PlneP9dmDOsBpKuoHSOQzkw_I0cL5fcW8FZ5Uq5-cs9Sxv_ogI4eJ4S-rjHiP3Mj9-bvuzUfVIFUfY_i2nY4AfIf5WPgNNWfOB3xYfvMEITYCefOLU-RoHVddxpjurES9duhUkUHNOV=w500-h500-s-no-gm?authuser=0" alt="linkedin" /></a></li>
+					<li><a href="https://www.youtube.com/channel/UCIl3wm3BjyE4AzxmL5hGm0Q"><img class="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczOA0Pu2awGwpb5m9NRAhllvRneTg8lB05BMFaZESf0RiZ17R_g8sgMwl8n6VR_8LkKLP3fMfcWZb7ValX-2KUDYhBncXm74FDOV98Y0tJB22B-9LysSZoGZriXpKnHxSf9q23DoHmpwecAPA_3KBQaa=w500-h500-s-no-gm?authuser=0" alt="YouTube" /></a></li>
+					<li><a href="Objeto/Imagem_20240525_1326-Whatsapp.png"><img class="img-social" src="https://lh3.googleusercontent.com/pw/AP1GczOHSbua0lDhwN-SdpldrE6uStjzD2ItX5n0ky9LE4GevvjnXtyqGW2ExqyEJUTXioA_dzsrxwZeVES78V3Gf2n27l57p4USXe99Ordo65Tw_qoXP0rJisQqPNI0lGkNX4TSeVv1RWXZPm3GGGiJjCiY=w500-h500-s-no-gm?authuser=0"  alt="Whatsapp"></a></li>
 				</ul>								
-			</div>			
-			<div class="flex retrato">
-				<p style="margin-left: 30%;">Jigoro Kuwajima</p>
+			</nav>			
+			<div class="estrela retrato">				
 				<span><h1 class="birthstone-bounce-regular nome">"Se você só consegue fazer uma coisa, seja o mestre nela. Refine-a até o seu limite.</h1></span>
-				<br>
+				<p>Jigoro Kuwajima</p>
+				<img id="gif" src="https://lh3.googleusercontent.com/pw/AP1GczPSWJAf88M4gtfkyjjsGItvJXHhFS-smX4PBLcHYgYAjeZPS3ph1b9dAbmQk95GyQsJn-l3sTdoZ_rE7gc2W75dGArD-xC1DXfB3NB6i1U9kbpecAmet2JrrNwHsEJ0fGI4n252lRst5Dcy6BDywF0l=w520-h293-s-no-gm?authuser=0" alt="frase de efeito Zenitsu">
 			</div>				
 		</header>
 	<!--FINAL DO CABEÇALHO DESTA PÁGINA------------------------------------------------------------------------------------------------------------------------>
 	<!--INICIO DO CORPO DE ARTIGOS E MIDIA SOCIATIVA...-------------------------------------------------------------------------------------------------------->
-		<section>
-			<div class="flex">
-				<img id="gif" src="https://lh3.googleusercontent.com/pw/AP1GczPSWJAf88M4gtfkyjjsGItvJXHhFS-smX4PBLcHYgYAjeZPS3ph1b9dAbmQk95GyQsJn-l3sTdoZ_rE7gc2W75dGArD-xC1DXfB3NB6i1U9kbpecAmet2JrrNwHsEJ0fGI4n252lRst5Dcy6BDywF0l=w520-h293-s-no-gm?authuser=0" alt="frase de efeito Zenitsu">
-			</div>
-			<br><br><br>
+		<hr>
+		<section class="status" >
+			
+			<br><br><br><br><br>
+			<span class="black-ops-one-regular">Tutorial - Especial Medibang</span>
+			<div class="video-player">				
+				<div>
+					<iframe width="380" height="300" src="https://www.youtube.com/embed/1uKj9NTQgAQ?si=7Eq4wZQczuFHtunv" 
+					title="YouTube video player" frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div>
+					<iframe width="380" height="300" src="https://www.youtube.com/embed/LUzZXujcnsU?si=W-yY8WPBaggNYQUp" 
+					title="YouTube video player" frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div>
+					<iframe width="380" height="300" src="https://www.youtube.com/embed/Qj6ssWziJdY?si=uz5npDPAJK_s-3o7" 
+					title="YouTube video player" frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>		
 		</section>
 		<section>
-			<hr><hr>
-			<span><h2 class="span-tito">Canal do Youtube - Especial Medibang</h2></span>
-			<div class="flex video-player">				
-				<div class="col3">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/1uKj9NTQgAQ?si=7Eq4wZQczuFHtunv" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col3">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/DW5zK7V94Ro?si=zh44Ah74bf3Fiml4" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col3">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/Qj6ssWziJdY?si=uz5npDPAJK_s-3o7" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
+			<div class="canal foto">
+				<h1 class="birthstone-bounce-regular">Conheça o meu canal...</h1>
+				<img class="foto" src="https://lh3.googleusercontent.com/pw/AP1GczOA0Pu2awGwpb5m9NRAhllvRneTg8lB05BMFaZESf0RiZ17R_g8sgMwl8n6VR_8LkKLP3fMfcWZb7ValX-2KUDYhBncXm74FDOV98Y0tJB22B-9LysSZoGZriXpKnHxSf9q23DoHmpwecAPA_3KBQaa=w500-h500-s-no-gm?authuser=0" alt="YouTube" />
+				<h3>https://www.youtube.com/@marciapatriciam</h3>
 			</div>			
 		</section>
-		<section>
-			<hr><hr>
-			<span><h2 class="span-tito">Projeto Social - Desenvolvedor Web mobile</h2></span>
-			<div class="flex video-player">
-				<div class="col3">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/hyidgewgeqk?si=2REXl1GZBQt7IeJd" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col3">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/dkQ6KhUrjGc?si=aVxajbMX7kvKo9Kt" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col3">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/o6FCtBZAjvI?si=_bSz4NqpHHSTPid3" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-			</div>
-			<hr>
-			<div class="flex video-player">
-				<div class="col5">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/2fCQ7dttqF0?si=kSLPuXMvnbzM-ZVk" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col5">
-					<iframe width="420" height="300" src="https://www.youtube.com/embed/JMaAjEp_xHk?si=dg4o7QAJi1v0Ar7y" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-			</div>
-		</section>				
+			
 	<!--Final do CORPO do Site--------------------------------------------------------------------------------------------------------------------------------->
 	<!--Inicio do Rodapé do site------------------------------------------------------------------------------------------------------------------------------->
 		<footer>
-			<div class="retrato">
-				<span><h3 class="birthstone-bounce-regular">Marcia Santos - &copy; 2024</h3></span>	
-				<p>Ajuda e suporte pelo e-mail</p>
-				<p>mapat.soad@gmail.com</p>
+			<div class="estrela footer">
+				<h3 class="birthstone-bounce-regular">Marcia Santos - &copy; 2024</h3>
+				<p>Ajuda e suporte pelo e-mail <br>
+				mapat.soad@gmail.com</p>
 			</div>
 		</footer>
-
-	</BODY>
-</HTML>
+	</body>
+</html>
